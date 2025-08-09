@@ -26,9 +26,23 @@ export default function Program() {
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-dark-gray mb-4">
+            <h2 className="text-3xl font-bold text-secondary-900 mb-4">
               プログラム概要
             </h2>
+            <div className="bg-primary-50 p-6 rounded-lg max-w-4xl mx-auto mb-8">
+              <h3 className="text-lg font-semibold text-primary-700 mb-3">MECの基本方針</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div className="bg-white p-3 rounded border-l-2 border-primary-400">
+                  <p className="font-semibold text-secondary-900">クライアントの利益を100％最優先</p>
+                </div>
+                <div className="bg-white p-3 rounded border-l-2 border-primary-400">
+                  <p className="font-semibold text-secondary-900">ゴールセッティングを中心としたアプローチ</p>
+                </div>
+                <div className="bg-white p-3 rounded border-l-2 border-primary-400">
+                  <p className="font-semibold text-secondary-900">クライアント自身による発見と創造を重視</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -44,28 +58,28 @@ export default function Program() {
               </div>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  基本プログラム：3ヶ月
+                  基本プログラム：6ヶ月
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  セッション頻度：週1回
+                  セッション頻度：月1回
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  1セッション：90分
+                  1セッション：30分程度
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  総セッション数：12回
+                  総セッション数：6回
                 </li>
               </ul>
             </div>
@@ -169,33 +183,34 @@ export default function Program() {
                 <p className="text-gray-600">3ヶ月集中コース</p>
               </div>
               <div className="text-center mb-6">
-                <span className="text-4xl font-bold text-primary">¥300,000</span>
-                <span className="text-gray-600 block">(税込)</span>
+                <span className="text-4xl font-bold text-primary-600">¥220,000</span>
+                <span className="text-secondary-600 block">(税込)</span>
+                <p className="text-sm text-secondary-500 mt-2">継続セッション（2〜6回目）</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  90分セッション × 12回
+                  30分セッション × 6回（6ヶ月間）
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  セッション間メールサポート
+                  対面・オンライン（Google Meet）対応
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  専用ワークシート提供
+                  個別対応原則（フレキシブル対応）
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  進捗レポート作成
+                  クライアント自身のペースと発見を最優先
                 </li>
               </ul>
               <div className="text-center">
@@ -215,33 +230,34 @@ export default function Program() {
                 <p className="text-gray-600">お試し・フォローアップ</p>
               </div>
               <div className="text-center mb-6">
-                <span className="text-4xl font-bold text-primary">¥30,000</span>
-                <span className="text-gray-600 block">(税込)</span>
+                <span className="text-4xl font-bold text-primary-600">¥6,000</span>
+                <span className="text-secondary-600 block">(税込)</span>
+                <p className="text-sm text-secondary-500 mt-2">初回トライアル</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  90分セッション × 1回
+                  30分程度 × 1回
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  事前ヒアリングシート
+                  対面・オンライン対応
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  セッション要約レポート
+                  MECの体験・理解
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-4 h-4 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-primary-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  アクションプラン提案
+                  適合性の確認
                 </li>
               </ul>
               <div className="text-center">
@@ -272,13 +288,13 @@ export default function Program() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-semibold text-dark-gray mb-4">
+                <h3 className="text-2xl font-semibold text-secondary-900 mb-4">
                   初回トライアルセッション
                 </h3>
                 <div className="text-center mb-6 lg:text-left">
-                  <span className="text-4xl font-bold text-primary">60分</span>
-                  <span className="text-2xl text-gray-600 ml-2">¥5,000</span>
-                  <span className="text-gray-600 block">(税込)</span>
+                  <span className="text-4xl font-bold text-primary-600">30分</span>
+                  <span className="text-2xl text-secondary-600 ml-2">¥6,000</span>
+                  <span className="text-secondary-600 block">(税込)</span>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">

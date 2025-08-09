@@ -32,13 +32,19 @@ export default function MEC() {
           </div>
           
           <div className="bg-primary/5 p-8 rounded-lg border-l-4 border-primary mb-12">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              <strong className="text-primary">マインドエンジニアリングコーチング（MEC）</strong>は、
-              認知科学・脳科学の最新研究成果を基盤とした科学的なコーチング手法です。
-              従来の精神論的なアプローチではなく、脳の情報処理メカニズムを理解し、
-              科学的にマインド（心・精神）を設計・改良することで、
-              目標達成と自己実現をサポートします。
+            <p className="text-lg text-secondary-700 leading-relaxed mb-4">
+              <strong className="text-primary-600">マインドエンジニアリングコーチング（MEC）</strong>は、
+              最新の認知科学的知見を基盤とし、人が本来持つマインドの力を最大限に引き出す実践的プログラムです。
             </p>
+            <div className="bg-white p-6 rounded-lg mt-4 border-l-2 border-primary-300">
+              <h4 className="font-semibold text-secondary-900 mb-3">核心原則</h4>
+              <ul className="space-y-2 text-secondary-700">
+                <li>• <strong>実践方法はシンプル</strong></li>
+                <li>• <strong>努力感不要</strong>（根性論ではない）</li>
+                <li>• <strong>やりたいことを、やりたいだけやる</strong></li>
+                <li>• <strong>過去は一切関係ない</strong>（時間は未来から過去へ流れる）</li>
+              </ul>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -73,29 +79,90 @@ export default function MEC() {
         </div>
       </section>
 
-      {/* 最新の認知科学的知見 */}
-      <section className="py-20 bg-light-gray">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark-gray mb-4">
-              最新の認知科学的知見
+      {/* MECの理論的基盤 */}
+      <section className="py-20 bg-neutral-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-secondary-900 mb-4">
+              MECの理論的基盤
             </h2>
-            <p className="text-lg text-gray-600">
-              MECが基盤とする科学的根拠
+            <p className="text-lg text-secondary-600">
+              科学的根拠に基づく5つの核心理論
             </p>
           </div>
 
-          <div className="space-y-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold text-dark-gray mb-4 flex items-center">
-                <span className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">1</span>
-                脳の可塑性（Neuroplasticity）
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-8 rounded-lg shadow-sm border-l-4 border-primary-400">
+              <h3 className="text-xl font-semibold text-secondary-900 mb-4 flex items-center">
+                <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">1</span>
+                ホメオスタシス理論
               </h3>
-              <p className="text-gray-700 ml-11">
-                脳は生涯にわたって変化し続けることができます。適切な刺激と訓練により、
-                新しい神経回路を形成し、既存の思考パターンを変えることが可能です。
-              </p>
+              <div className="text-secondary-700 space-y-3 text-sm">
+                <p><strong>定義：</strong>あるべき状態に戻ろうとする機能</p>
+                <p><strong>物理レベル：</strong>体温調節、恒常性維持</p>
+                <p><strong>精神レベル：</strong>無意識の選択、安心感の維持</p>
+                <div className="bg-primary-50 p-3 rounded mt-4">
+                  <p className="font-semibold text-primary-700">エネルギー公式</p>
+                  <p className="font-mono">ΔE = Ue - Ua</p>
+                  <p className="text-xs">現状から遠いゴールほど大きなエネルギーが生成</p>
+                </div>
+              </div>
             </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-sm border-l-4 border-primary-400">
+              <h3 className="text-xl font-semibold text-secondary-900 mb-4 flex items-center">
+                <span className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">2</span>
+                コンフォートゾーン理論
+              </h3>
+              <div className="text-secondary-700 space-y-3 text-sm">
+                <p><strong>定義：</strong>当然あって然るべき空間・当たり前の環境</p>
+                <p><strong>メカニズム：</strong>マインドはコンフォートゾーンを維持するように働く</p>
+                <p><strong>重要原則：</strong></p>
+                <div className="bg-primary-50 p-3 rounded">
+                  <p className="font-semibold text-primary-700">「ゴールはおぼろげ、コンフォートゾーンはリアルに」</p>
+                  <p className="text-xs">ゴールは現状の外→リアルに見えるはずがない</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary-300">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3 flex items-center">
+                <span className="bg-primary-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2">3</span>
+                スコトーマ理論
+              </h3>
+              <div className="text-secondary-700 space-y-2 text-sm">
+                <p><strong>定義：</strong>意識が覆われている領域（盲点）</p>
+                <p>ゴールへの道筋は現在スコトーマに隠れている</p>
+                <p className="text-primary-600 font-semibold">達成方法がわからないゴールこそ適切</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary-300">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3 flex items-center">
+                <span className="bg-primary-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2">4</span>
+                RAS理論
+              </h3>
+              <div className="text-secondary-700 space-y-2 text-sm">
+                <p><strong>定義：</strong>網様体賦活系・情報フィルタリング機能</p>
+                <p>重要な情報しか意識に上げられない</p>
+                <p className="text-primary-600 font-semibold">ゴール設定→RAS調整→達成方法が見える</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary-300">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3 flex items-center">
+                <span className="bg-primary-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs mr-2">5</span>
+                エフィカシー理論
+              </h3>
+              <div className="text-secondary-700 space-y-2 text-sm">
+                <p><strong>定義：</strong>自己能力の自己評価</p>
+                <p>ゴール達成への確信度</p>
+                <p className="text-primary-600 font-semibold">不安＝現状の外の証拠</p>
+              </div>
+            </div>
+          </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold text-dark-gray mb-4 flex items-center">
@@ -144,69 +211,73 @@ export default function MEC() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* 従来のコーチング */}
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-600 mb-6 text-center">
+            <div className="bg-neutral-100 p-8 rounded-lg">
+              <h3 className="text-xl font-semibold text-secondary-600 mb-6 text-center">
                 従来のコーチング
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-secondary-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-600">精神論・根性論に依存</span>
+                  <span className="text-secondary-700">具体的なアドバイスを提供</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-secondary-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-600">経験則に基づく手法</span>
+                  <span className="text-secondary-700">外部から解決策を提示</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-secondary-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-600">一時的なモチベーション向上</span>
+                  <span className="text-secondary-700">行動変容にフォーカス</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-secondary-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-600">個人差を考慮しない画一的アプローチ</span>
+                  <span className="text-secondary-700">技術やスキルを教える</span>
                 </li>
               </ul>
             </div>
 
             {/* MEC */}
             <div className="bg-primary/5 p-8 rounded-lg border-2 border-primary/20">
-              <h3 className="text-xl font-semibold text-primary mb-6 text-center">
+              <h3 className="text-xl font-semibold text-primary-600 mb-6 text-center">
                 MEC（マインドエンジニアリングコーチング）
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-primary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-primary-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-700">認知科学・脳科学に基づく手法</span>
+                  <span className="text-secondary-700">具体的なアドバイスはしない</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-primary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-primary-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-700">科学的根拠に基づく再現性</span>
+                  <span className="text-secondary-700">自分でゴール設定、自分で方法を発見</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-primary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-primary-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-700">根本的な思考パターンの変革</span>
+                  <span className="text-secondary-700">マインドに働きかける</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-primary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-primary-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-gray-700">個人の特性に合わせた最適化</span>
+                  <span className="text-secondary-700">マインドの使い方を教えるのみ</span>
                 </li>
               </ul>
+              <div className="mt-6 p-4 bg-white rounded border-l-4 border-primary-400">
+                <p className="text-sm font-semibold text-primary-700">基本方針</p>
+                <p className="text-xs text-secondary-600">クライアントの利益を100％最優先・ゴールセッティング中心・クライアント自身による発見と創造を重視</p>
+              </div>
             </div>
           </div>
         </div>

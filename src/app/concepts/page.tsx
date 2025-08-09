@@ -25,14 +25,45 @@ export default function Concepts() {
       {/* 概要 */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-dark-gray mb-6">
-            成功への4つの鍵
+          <h2 className="text-3xl font-bold text-secondary-900 mb-6">
+            適切なゴール設定の重要性
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-12">
-            マインドエンジニアリングコーチング（MEC）は、認知科学に基づいた4つの核心的概念を軸に構成されています。
-            これらの概念を理解し、実践することで、あなたの思考パターンを根本から変革し、
-            理想の自分へと導きます。
+          <p className="text-lg text-secondary-700 leading-relaxed mb-8">
+            マインドエンジニアリングコーチング（MEC）において最も重要なのは「適切なゴール設定」です。
+            従来のコーチングとは異なり、MECでは特定の条件を満たすゴールのみを扱います。
           </p>
+          
+          <div className="bg-primary-50 p-8 rounded-lg mb-12 border-l-4 border-primary-400">
+            <h3 className="text-xl font-semibold text-primary-700 mb-4">適切なゴールの4つの条件</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white p-4 rounded border-l-2 border-primary-300">
+                <h4 className="font-semibold text-secondary-900 mb-2">1. 現状の外にある</h4>
+                <p className="text-sm text-secondary-700">今のコンフォートゾーンを超えた挑戦的なゴール</p>
+              </div>
+              <div className="bg-white p-4 rounded border-l-2 border-primary-300">
+                <h4 className="font-semibold text-secondary-900 mb-2">2. 100％やりたいこと</h4>
+                <p className="text-sm text-secondary-700">やりたくないことが1％でもあったらOUT</p>
+              </div>
+              <div className="bg-white p-4 rounded border-l-2 border-primary-300">
+                <h4 className="font-semibold text-secondary-900 mb-2">3. バランスホイール</h4>
+                <p className="text-sm text-secondary-700">健康、家庭、教養、ファイナンス等の各領域にゴールを設定</p>
+              </div>
+              <div className="bg-white p-4 rounded border-l-2 border-primary-300">
+                <h4 className="font-semibold text-secondary-900 mb-2">4. 社会性を含む</h4>
+                <p className="text-sm text-secondary-700">個人の幸せと社会の幸せの両立・誰かが苦しむゴールはありえない</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-neutral-100 p-6 rounded-lg mb-12">
+            <h3 className="text-lg font-semibold text-secondary-900 mb-3">適切でないゴールの例</h3>
+            <ul className="text-secondary-700 space-y-2">
+              <li>• ○○大学に入る（現状内・期間限定）</li>
+              <li>• ○○会社と契約する（相手の意思に依存）</li>
+              <li>• 年収○○円になる（お金だけが目的）</li>
+              <li>• 他人を負かす・競合に勝つ（誰かが苦しむ）</li>
+            </ul>
+          </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
