@@ -240,7 +240,7 @@ export default function Concepts() {
               <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
                 3
               </div>
-              <h2 className="text-3xl font-bold text-dark-gray">コンフォートゾーンの拡張</h2>
+              <h2 className="text-3xl font-bold text-dark-gray">コンフォートゾーンの移行</h2>
             </div>
           </div>
 
@@ -268,7 +268,7 @@ export default function Concepts() {
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h4 className="font-semibold text-dark-gray mb-3 flex items-center">
                     <div className="w-4 h-4 bg-yellow-500 rounded-full mr-3"></div>
-                    コンフォートゾーン拡張中
+                    コンフォートゾーン移行中
                   </h4>
                   <p className="text-gray-700">
                     新しい挑戦・未知の体験・不確実性<br />
@@ -279,7 +279,7 @@ export default function Concepts() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-dark-gray mb-6">拡張のメカニズム</h3>
+              <h3 className="text-2xl font-semibold text-dark-gray mb-6">移行のメカニズム</h3>
               
               <div className="space-y-6">
                 <div className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
@@ -304,9 +304,9 @@ export default function Concepts() {
                 </div>
 
                 <div className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
-                  <h4 className="text-lg font-semibold text-dark-gray mb-3">4. ゾーンの拡張</h4>
+                  <h4 className="text-lg font-semibold text-dark-gray mb-3">4. ゾーンの移行</h4>
                   <p className="text-gray-700">
-                    新しい結果が「当たり前」になることで、コンフォートゾーンが拡張されます。
+                    新しい結果が「当たり前」になることで、コンフォートゾーンが移行されます。
                   </p>
                 </div>
               </div>

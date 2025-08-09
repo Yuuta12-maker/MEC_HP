@@ -140,7 +140,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-secondary-900">主な内容</h4>
-                    <p className="text-secondary-700">ゴール設定、エフィカシー向上、コンフォートゾーン拡張</p>
+                    <p className="text-secondary-700">ゴール設定、エフィカシー向上、コンフォートゾーン移行</p>
                   </div>
                 </div>
               </div>
