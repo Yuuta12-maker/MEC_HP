@@ -163,40 +163,6 @@ export default function MEC() {
               </div>
             </div>
           </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold text-dark-gray mb-4 flex items-center">
-                <span className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">2</span>
-                認知バイアスの理解
-              </h3>
-              <p className="text-gray-700 ml-11">
-                人間の判断には様々なバイアス（偏見）が存在します。これらを理解し、
-                意識的にコントロールすることで、より合理的で効果的な思考が可能になります。
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold text-dark-gray mb-4 flex items-center">
-                <span className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">3</span>
-                記憶と学習のメカニズム
-              </h3>
-              <p className="text-gray-700 ml-11">
-                記憶の形成と想起のプロセスを理解することで、
-                より効果的な学習方法と行動変容のアプローチを設計できます。
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold text-dark-gray mb-4 flex items-center">
-                <span className="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">4</span>
-                注意と意識の科学
-              </h3>
-              <p className="text-gray-700 ml-11">
-                注意のメカニズムを理解し、意識的に注意をコントロールすることで、
-                集中力の向上とパフォーマンスの最適化を実現します。
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -204,7 +170,7 @@ export default function MEC() {
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark-gray mb-4">
+            <h2 className="text-3xl font-bold text-secondary-900 mb-4">
               従来のコーチングとの違い
             </h2>
           </div>
@@ -284,50 +250,50 @@ export default function MEC() {
       </section>
 
       {/* MECが選ばれる理由 */}
-      <section className="py-20 bg-light-gray">
+      <section className="py-20 bg-neutral-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark-gray mb-4">
+            <h2 className="text-3xl font-bold text-secondary-900 mb-4">
               MECが選ばれる理由
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-dark-gray mb-3">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3">
                 🎯 明確な結果
               </h3>
-              <p className="text-gray-700">
+              <p className="text-secondary-700">
                 科学的手法により、目標達成までのプロセスが明確で、
                 結果を測定・評価できます。
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-dark-gray mb-3">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3">
                 ⏰ 効率的
               </h3>
-              <p className="text-gray-700">
+              <p className="text-secondary-700">
                 脳の情報処理メカニズムを活用することで、
                 短期間での変化と成長を実現します。
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-dark-gray mb-3">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3">
                 🔄 継続性
               </h3>
-              <p className="text-gray-700">
+              <p className="text-secondary-700">
                 一時的な変化ではなく、根本的な思考パターンの変革により、
                 持続可能な成長を実現します。
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-dark-gray mb-3">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-3">
                 🎨 個別最適化
               </h3>
-              <p className="text-gray-700">
+              <p className="text-secondary-700">
                 一人ひとりの認知特性や価値観に合わせて、
                 最適なアプローチを設計します。
               </p>
@@ -337,24 +303,24 @@ export default function MEC() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-primary">
+      <section className="py-20 bg-primary-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
             科学的なコーチングを体験してみませんか？
           </h2>
-          <p className="text-xl text-red-100 mb-8">
+          <p className="text-xl text-primary-100 mb-8">
             初回トライアルで、MECの効果を実感してください
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Link
               href="/contact"
-              className="inline-block bg-white text-primary px-8 py-3 rounded-md text-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="inline-block bg-white text-primary-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-primary-50 hover:shadow-lg transition-all focus-visible:focus-visible"
             >
               初回トライアル申し込み
             </Link>
             <Link
               href="/program"
-              className="inline-block border-2 border-white text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-white hover:text-primary transition-colors"
+              className="inline-block border-2 border-white text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-white hover:text-primary-600 transition-all focus-visible:focus-visible"
             >
               プログラム詳細
             </Link>
