@@ -32,7 +32,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-dark-gray hover:text-primary transition-colors duration-200 font-medium"
+                className="text-secondary-700 hover:text-primary-600 transition-colors duration-200 font-medium focus-visible:focus-visible"
               >
                 {item.name}
               </Link>
@@ -43,7 +43,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-dark-gray hover:text-primary focus:outline-none"
+              className="text-secondary-700 hover:text-primary-600 focus:outline-none focus-visible:focus-visible p-2"
             >
               <span className="sr-only">メニューを開く</span>
               {isMenuOpen ? (
@@ -62,12 +62,12 @@ const Header = () => {
         {/* モバイルメニュー */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-neutral-200">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-2 text-dark-gray hover:text-primary hover:bg-light-gray transition-colors duration-200 font-medium rounded-md"
+                  className="block px-3 py-2 text-secondary-700 hover:text-primary-600 hover:bg-primary-50 transition-colors duration-200 font-medium rounded-md focus-visible:focus-visible"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
